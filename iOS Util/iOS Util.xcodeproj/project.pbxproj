@@ -16,6 +16,18 @@
 		E45EF80C179FBB49003A7E1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E45EF80B179FBB49003A7E1F /* Default.png */; };
 		E45EF80E179FBB49003A7E1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E45EF80D179FBB49003A7E1F /* Default@2x.png */; };
 		E45EF810179FBB49003A7E1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E45EF80F179FBB49003A7E1F /* Default-568h@2x.png */; };
+		E45EF81B179FBC56003A7E1F /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF81A179FBC56003A7E1F /* GTViewController.m */; };
+		E45EF83E179FBECA003A7E1F /* CWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF825179FBECA003A7E1F /* CWAlertView.m */; };
+		E45EF83F179FBECA003A7E1F /* CWSmartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF828179FBECA003A7E1F /* CWSmartTableViewCell.m */; };
+		E45EF840179FBECA003A7E1F /* MyKeyChainHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF82B179FBECA003A7E1F /* MyKeyChainHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E45EF841179FBECA003A7E1F /* NetImageEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF82E179FBECA003A7E1F /* NetImageEngine.m */; };
+		E45EF842179FBECA003A7E1F /* NetImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF830179FBECA003A7E1F /* NetImageView.m */; };
+		E45EF843179FBECA003A7E1F /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF832179FBECA003A7E1F /* StringUtils.m */; };
+		E45EF844179FBECA003A7E1F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF835179FBECA003A7E1F /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E45EF845179FBECA003A7E1F /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF837179FBECA003A7E1F /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E45EF846179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF83A179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m */; };
+		E45EF847179FBECA003A7E1F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF83D179FBECA003A7E1F /* UIImage+FixOrientation.m */; };
+		E45EF849179FBF71003A7E1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45EF848179FBF71003A7E1F /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,29 @@
 		E45EF80B179FBB49003A7E1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E45EF80D179FBB49003A7E1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E45EF80F179FBB49003A7E1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E45EF819179FBC56003A7E1F /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		E45EF81A179FBC56003A7E1F /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		E45EF824179FBECA003A7E1F /* CWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAlertView.h; sourceTree = "<group>"; };
+		E45EF825179FBECA003A7E1F /* CWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAlertView.m; sourceTree = "<group>"; };
+		E45EF827179FBECA003A7E1F /* CWSmartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSmartTableViewCell.h; sourceTree = "<group>"; };
+		E45EF828179FBECA003A7E1F /* CWSmartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSmartTableViewCell.m; sourceTree = "<group>"; };
+		E45EF82A179FBECA003A7E1F /* MyKeyChainHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKeyChainHelper.h; sourceTree = "<group>"; };
+		E45EF82B179FBECA003A7E1F /* MyKeyChainHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyChainHelper.m; sourceTree = "<group>"; };
+		E45EF82D179FBECA003A7E1F /* NetImageEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetImageEngine.h; sourceTree = "<group>"; };
+		E45EF82E179FBECA003A7E1F /* NetImageEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetImageEngine.m; sourceTree = "<group>"; };
+		E45EF82F179FBECA003A7E1F /* NetImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetImageView.h; sourceTree = "<group>"; };
+		E45EF830179FBECA003A7E1F /* NetImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetImageView.m; sourceTree = "<group>"; };
+		E45EF831179FBECA003A7E1F /* StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtils.h; sourceTree = "<group>"; };
+		E45EF832179FBECA003A7E1F /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
+		E45EF834179FBECA003A7E1F /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		E45EF835179FBECA003A7E1F /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		E45EF836179FBECA003A7E1F /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		E45EF837179FBECA003A7E1F /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		E45EF839179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NetworkActivityIndicator.h"; sourceTree = "<group>"; };
+		E45EF83A179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		E45EF83C179FBECA003A7E1F /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		E45EF83D179FBECA003A7E1F /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		E45EF848179FBF71003A7E1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45EF849179FBF71003A7E1F /* Security.framework in Frameworks */,
 				E45EF7FA179FBB49003A7E1F /* UIKit.framework in Frameworks */,
 				E45EF7FC179FBB49003A7E1F /* Foundation.framework in Frameworks */,
 				E45EF7FE179FBB49003A7E1F /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +104,7 @@
 		E45EF7F8179FBB49003A7E1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E45EF848179FBF71003A7E1F /* Security.framework */,
 				E45EF7F9179FBB49003A7E1F /* UIKit.framework */,
 				E45EF7FB179FBB49003A7E1F /* Foundation.framework */,
 				E45EF7FD179FBB49003A7E1F /* CoreGraphics.framework */,
@@ -78,8 +115,9 @@
 		E45EF7FF179FBB49003A7E1F /* iOS Util */ = {
 			isa = PBXGroup;
 			children = (
-				E45EF808179FBB49003A7E1F /* AppDelegate.h */,
-				E45EF809179FBB49003A7E1F /* AppDelegate.m */,
+				E45EF81C179FBC60003A7E1F /* Utils */,
+				E45EF819179FBC56003A7E1F /* GTViewController.h */,
+				E45EF81A179FBC56003A7E1F /* GTViewController.m */,
 				E45EF800179FBB49003A7E1F /* Supporting Files */,
 			);
 			path = "iOS Util";
@@ -88,6 +126,8 @@
 		E45EF800179FBB49003A7E1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E45EF808179FBB49003A7E1F /* AppDelegate.h */,
+				E45EF809179FBB49003A7E1F /* AppDelegate.m */,
 				E45EF801179FBB49003A7E1F /* iOS Util-Info.plist */,
 				E45EF802179FBB49003A7E1F /* InfoPlist.strings */,
 				E45EF805179FBB49003A7E1F /* main.m */,
@@ -97,6 +137,96 @@
 				E45EF80F179FBB49003A7E1F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45EF81C179FBC60003A7E1F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF823179FBECA003A7E1F /* CWAlertView */,
+				E45EF826179FBECA003A7E1F /* CWSmartTableViewCell */,
+				E45EF829179FBECA003A7E1F /* MyKeyChainHelper */,
+				E45EF82C179FBECA003A7E1F /* NetImageView */,
+				E45EF833179FBECA003A7E1F /* NSString+HTML */,
+				E45EF838179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator */,
+				E45EF83B179FBECA003A7E1F /* UIImage+FixOrientation */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E45EF823179FBECA003A7E1F /* CWAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF824179FBECA003A7E1F /* CWAlertView.h */,
+				E45EF825179FBECA003A7E1F /* CWAlertView.m */,
+			);
+			name = CWAlertView;
+			path = utils/CWAlertView;
+			sourceTree = "<group>";
+		};
+		E45EF826179FBECA003A7E1F /* CWSmartTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF827179FBECA003A7E1F /* CWSmartTableViewCell.h */,
+				E45EF828179FBECA003A7E1F /* CWSmartTableViewCell.m */,
+			);
+			name = CWSmartTableViewCell;
+			path = utils/CWSmartTableViewCell;
+			sourceTree = "<group>";
+		};
+		E45EF829179FBECA003A7E1F /* MyKeyChainHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF82A179FBECA003A7E1F /* MyKeyChainHelper.h */,
+				E45EF82B179FBECA003A7E1F /* MyKeyChainHelper.m */,
+			);
+			name = MyKeyChainHelper;
+			path = utils/MyKeyChainHelper;
+			sourceTree = "<group>";
+		};
+		E45EF82C179FBECA003A7E1F /* NetImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF82D179FBECA003A7E1F /* NetImageEngine.h */,
+				E45EF82E179FBECA003A7E1F /* NetImageEngine.m */,
+				E45EF82F179FBECA003A7E1F /* NetImageView.h */,
+				E45EF830179FBECA003A7E1F /* NetImageView.m */,
+				E45EF831179FBECA003A7E1F /* StringUtils.h */,
+				E45EF832179FBECA003A7E1F /* StringUtils.m */,
+			);
+			name = NetImageView;
+			path = utils/NetImageView;
+			sourceTree = "<group>";
+		};
+		E45EF833179FBECA003A7E1F /* NSString+HTML */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF834179FBECA003A7E1F /* GTMNSString+HTML.h */,
+				E45EF835179FBECA003A7E1F /* GTMNSString+HTML.m */,
+				E45EF836179FBECA003A7E1F /* NSString+HTML.h */,
+				E45EF837179FBECA003A7E1F /* NSString+HTML.m */,
+			);
+			name = "NSString+HTML";
+			path = "utils/NSString+HTML";
+			sourceTree = "<group>";
+		};
+		E45EF838179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF839179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.h */,
+				E45EF83A179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m */,
+			);
+			name = "UIApplication+NetworkActivityIndicator";
+			path = "utils/UIApplication+NetworkActivityIndicator";
+			sourceTree = "<group>";
+		};
+		E45EF83B179FBECA003A7E1F /* UIImage+FixOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				E45EF83C179FBECA003A7E1F /* UIImage+FixOrientation.h */,
+				E45EF83D179FBECA003A7E1F /* UIImage+FixOrientation.m */,
+			);
+			name = "UIImage+FixOrientation";
+			path = "utils/UIImage+FixOrientation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +296,17 @@
 			files = (
 				E45EF806179FBB49003A7E1F /* main.m in Sources */,
 				E45EF80A179FBB49003A7E1F /* AppDelegate.m in Sources */,
+				E45EF81B179FBC56003A7E1F /* GTViewController.m in Sources */,
+				E45EF83E179FBECA003A7E1F /* CWAlertView.m in Sources */,
+				E45EF83F179FBECA003A7E1F /* CWSmartTableViewCell.m in Sources */,
+				E45EF840179FBECA003A7E1F /* MyKeyChainHelper.m in Sources */,
+				E45EF841179FBECA003A7E1F /* NetImageEngine.m in Sources */,
+				E45EF842179FBECA003A7E1F /* NetImageView.m in Sources */,
+				E45EF843179FBECA003A7E1F /* StringUtils.m in Sources */,
+				E45EF844179FBECA003A7E1F /* GTMNSString+HTML.m in Sources */,
+				E45EF845179FBECA003A7E1F /* NSString+HTML.m in Sources */,
+				E45EF846179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m in Sources */,
+				E45EF847179FBECA003A7E1F /* UIImage+FixOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +421,7 @@
 				E45EF815179FBB49003A7E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
