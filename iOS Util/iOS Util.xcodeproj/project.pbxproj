@@ -28,6 +28,8 @@
 		E45EF846179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF83A179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m */; };
 		E45EF847179FBECA003A7E1F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E45EF83D179FBECA003A7E1F /* UIImage+FixOrientation.m */; };
 		E45EF849179FBF71003A7E1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45EF848179FBF71003A7E1F /* Security.framework */; };
+		E4777514179FC8BA008DCF6E /* PaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4777511179FC8BA008DCF6E /* PaperView.m */; };
+		E4777515179FC8BA008DCF6E /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = E4777513179FC8BA008DCF6E /* Squiggle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,10 @@
 		E45EF83C179FBECA003A7E1F /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		E45EF83D179FBECA003A7E1F /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		E45EF848179FBF71003A7E1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E4777510179FC8BA008DCF6E /* PaperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaperView.h; path = utils/DrawByFinger/PaperView.h; sourceTree = "<group>"; };
+		E4777511179FC8BA008DCF6E /* PaperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaperView.m; path = utils/DrawByFinger/PaperView.m; sourceTree = "<group>"; };
+		E4777512179FC8BA008DCF6E /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Squiggle.h; path = utils/DrawByFinger/Squiggle.h; sourceTree = "<group>"; };
+		E4777513179FC8BA008DCF6E /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Squiggle.m; path = utils/DrawByFinger/Squiggle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		E45EF81C179FBC60003A7E1F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E477750F179FC89E008DCF6E /* DrawByFinger */,
 				E45EF823179FBECA003A7E1F /* CWAlertView */,
 				E45EF826179FBECA003A7E1F /* CWSmartTableViewCell */,
 				E45EF829179FBECA003A7E1F /* MyKeyChainHelper */,
@@ -229,6 +236,17 @@
 			path = "utils/UIImage+FixOrientation";
 			sourceTree = "<group>";
 		};
+		E477750F179FC89E008DCF6E /* DrawByFinger */ = {
+			isa = PBXGroup;
+			children = (
+				E4777510179FC8BA008DCF6E /* PaperView.h */,
+				E4777511179FC8BA008DCF6E /* PaperView.m */,
+				E4777512179FC8BA008DCF6E /* Squiggle.h */,
+				E4777513179FC8BA008DCF6E /* Squiggle.m */,
+			);
+			name = DrawByFinger;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +325,8 @@
 				E45EF845179FBECA003A7E1F /* NSString+HTML.m in Sources */,
 				E45EF846179FBECA003A7E1F /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				E45EF847179FBECA003A7E1F /* UIImage+FixOrientation.m in Sources */,
+				E4777514179FC8BA008DCF6E /* PaperView.m in Sources */,
+				E4777515179FC8BA008DCF6E /* Squiggle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

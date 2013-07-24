@@ -7,7 +7,16 @@
 //
 
 #import "GTViewController.h"
+#import "PaperView.h"
 
 @implementation GTViewController
+
+- (void)loadView
+{
+    [super loadView];
+    
+    PaperView *paperView = [[PaperView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    [self.view addSubview:paperView];
+}
 
 @end

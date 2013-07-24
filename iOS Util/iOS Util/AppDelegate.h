@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class GTViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) GTViewController *gtViewController;
 
 @end
